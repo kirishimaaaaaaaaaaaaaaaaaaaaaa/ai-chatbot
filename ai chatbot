@@ -1,0 +1,12 @@
+name = input("Hello! I am AI Bot, Whats your name?")
+print(f"nice to meet you, {name}")
+mood = input("How are you feeling today? (good/bad)").lower()
+if mood == "good":
+  print("I am glad to hear that")
+elif mood == "bad":
+  print("i am sorry to hear that. HOpe things get better soon")
+else:
+  print("I'see. Sometimes it's hard to put feelings into words")
+ 
+ 
+print("It was nice chatting with you", name, "bye bye!")
